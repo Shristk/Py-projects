@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+import numpy as np
+no=[10,53,27,20,31,35,39,21,26,43,16,34,46,27,55,31,43,28,17,34,19,40,33,24,21,37,37,24,54,36,24,1,29,46,29,53,34,46,37,56,49,49,40,54,45,43,11,54,43,45]
+l=[0,10,20,30,40,50]
+plt.hist(no,color="b",bins=l,edgecolor="r",label="python")
+
+
+plt.title("wscueb")
+
+plt.xlabel("python")
+plt.ylabel("no")
+plt.axvline(36,color="g",label="line")
+plt.legend()
+plt.show()
