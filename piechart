@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+x=[10,20,30,40]
+y=["c","c++","python","java"]
+ex=[0.3,0.0,0.0,0.0]
+c=["r","g","y","b"]
+
+
+
+plt.pie(x,labels=y,explode=ex,colors=c,autopct="%0.0f%%",radius=1,
+        labeldistance=1.1,startangle=90,textprops={"fontsize":15},
+        wedgeprops={"linewidth":5,"edgecolor":"m"},rotatelabels=False)
+plt.title("WsCubeTech")
+plt.legend()
+plt.show()
